@@ -4,6 +4,13 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-stylish-portfolio/blob/master/LICENSE)
  */
 
+@media screen and (min-width: 978px) {
+	.moveCenter {
+		justify-content: center;
+		display: flex;
+	}
+}
+
 body,
 html {
   width: 100%;
