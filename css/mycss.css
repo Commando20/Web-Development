@@ -1,0 +1,48 @@
+.button {
+    background-color: #69a29c;
+    border: none;
+    color: white;
+    padding: 15px 20px;
+    text-align: center;
+    font-size: 18px;
+    margin: 5px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition-duration: .15s;
+    outline: none;
+}
+
+.button:hover {
+    background-color: #598c87;
+}
+
+.heading {
+    font-size: 40px;
+}
+
+.textBoxAdjustWeight {
+    width: 226px;
+    height: 40px;
+    margin-bottom: 10px;
+}
+
+.textBoxAdjustTime {
+    width: 226px;
+    height: 40px;
+    margin-bottom: 10px;
+}
+
+.textBoxAdjustDistance {
+    width: 274px;
+    height: 40px;
+    margin-bottom: 10px;
+}
+
+.adjustP {
+    padding-top: 5px;
+    font-size: 20px;
+}
+
+.card-hover:hover {
+    background-color: #e3e3e3;
+}
