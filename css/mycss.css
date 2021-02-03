@@ -1,0 +1,8 @@
+.card-hover:hover {
+    background-color: #ebebeb;
+}
+
+.border-round {
+    border: 20px solid #ebebeb;
+    border-radius: 100%;
+}
