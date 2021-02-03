@@ -41,7 +41,7 @@ function invalid2() { //function for if second input is invalid (empty or NaN)
 function invalid3() { //function for if third input is invalid (empty or NaN)
     document.getElementById("incorrect3").style.visibility = "visible"; //Reveals error
     document.getElementById("incorrect3").innerHTML = "<strong>Please input a valid number.</strong>";
-    document.getElementById("incorrect3").style.setProperty("color", "#db2130");
+    document.getElementById("incorrect3").style.setProperty("color", "#db2130"); 
 	document.getElementById("incorrect3").style.setProperty("text-align", "center");
 }
 //******************************************************************************************
