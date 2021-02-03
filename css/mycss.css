@@ -1,0 +1,6 @@
+.hoverNumBox:hover     {
+    transition: 1s;
+    border-color: black;
+    background-color: rgb(254, 209, 54, .4);
+    
+}
