@@ -1,0 +1,53 @@
+@media screen and (max-width: 977px) and (min-width: 755px) {
+   .textBoxAdjust {
+    max-width: 200px;
+   }
+}
+
+@media screen and (max-width: 754px) {
+	.fixInputsCenter {
+		text-align: center;
+	}
+}
+
+.button {
+    background-color: #69a29c;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    margin-right: 10px;
+    text-align: center;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition-duration: .15s;
+    outline: none;
+}
+
+.button:hover {
+    background-color: #598c87;
+}
+
+.heading {
+    font-size: 30px;
+    padding-left: 15px;
+}
+
+.textBoxAdjust {
+    width: 280px;
+    height: 40px;
+}
+
+.adjustP {
+    padding: 5px 10px;
+    font-size: 18px;
+    transition-duration: .7s;
+}
+
+.box {
+    padding-left: 4%;
+}
+
+.card-hover:hover {
+    background-color: #e3e3e3;
+}
