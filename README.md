@@ -5,5 +5,6 @@
 
 <img src="https://github.com/Commando20/Web-Development/blob/weather-website/screenshots/SignIn.JPG" width="200" height="400" align="left"/>
 <img src="https://github.com/Commando20/Web-Development/blob/weather-website/screenshots/SignInMap.JPG" width="200" height="400" align="left"/>
+<br>
 <img src="https://github.com/Commando20/Web-Development/blob/weather-website/screenshots/SignInWeather.JPG" width="200" height="400" align="left"/>
 <img src="https://github.com/Commando20/Web-Development/blob/weather-website/screenshots/SignInExchangeRates.JPG" width="200" height="400" align="left"/>
