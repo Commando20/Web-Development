@@ -1,0 +1,70 @@
+header {
+    width: 100%;
+    height: auto;
+}
+
+h3 {
+    color: white;
+    margin: auto;
+    text-shadow: 1px 1px 2px black;
+    font-size: 25px;   
+}
+
+.sticky {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.style {
+    color: white;
+    stroke: rgba(0, 0, 0, .5);
+    stroke-width: 20px;
+}
+
+#box {
+    width: 70%;
+    border: 2px solid rgba(163, 163, 163, .5);
+    box-shadow: 3px 3px rgba(163, 163, 163, .5);
+	font-family: 'NTR';
+	font-size: 20px;
+}
+
+.button {
+    border: 1px solid rgba(163, 163, 163, .5);
+    box-shadow: 3px 3px rgba(163, 163, 163, .5);
+}
+
+.topInfo {
+    color: white;
+    font-family: 'NTR';
+	font-size: 90px;
+	text-shadow: 0 0 6px black;
+    text-align: center;
+}
+
+.botInfo {
+    color: white;
+    font-family: 'NTR';
+	font-size: 30px;
+	text-shadow: 0 0 6px black;
+	padding: 0px 5px;
+}
+
+.line {
+    height: 1px;
+    border-width: 100%;
+    color: white;
+    background-color: white;
+    margin: -3px;
+}
+
+.margin {
+	margin-top: 10px;
+	margin-bottom: -18px;
+}
+
+#map-canvas {
+	width: 100%;
+	height: 96%;
+}

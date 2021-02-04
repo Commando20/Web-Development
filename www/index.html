@@ -1,0 +1,118 @@
+<!DOCTYPE HTML>
+<HTML>
+    <head>
+		<meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>MY FAU APP</title>
+		<!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="img/favicon-16x16.png" />
+        
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v5.13.0/js/all.js" crossorigin="anonymous"></script>
+        
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
+        <link href='https://fonts.googleapis.com/css?family=NTR' rel='stylesheet'>
+		
+        <link rel="stylesheet" type="text/css" href="css/homepage.css"/>
+		<link href="css/bootstrap.css" rel="stylesheet" />
+        <link href="css/weathercss.css" rel="stylesheet" />
+		
+		<!-- Load Firebase Platform Base -->
+		<script src="https://www.gstatic.com/firebasejs/7.22.0/firebase-app.js"></script>
+		<script src="./js/firebase_creds.js"></script>
+		
+		<!-- Load Firebase Services -->
+		<script src="https://www.gstatic.com/firebasejs/7.22.0/firebase-auth.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/7.22.0/firebase-firestore.js"></script>
+    </head>
+    <body>
+		<table id="page">
+			<tr>
+				<td id="tdheader">
+					<div id="header" class="topnav">
+						<button id ="home"><p>Home</p></button>
+						<button id ="map"><p>Map</p></button>
+						<button id ="weather"><p>Weather</p></button>
+						<button id ="currency"><p>Currency</p></button>
+					</div>
+				</td>
+			</tr>
+			
+			<tr id="mainrow">
+				<td id="tdcontent">
+					<div id="content">
+						<div id="map-canvas"></div>
+						
+						<p id="welcome" class="topInfo" style="font-size: 50px; margin-bottom: -20%; padding-top: 5%;"></p>
+						
+						<div style="text-align: center;"><button id="login" style="text-align:center; margin: 40vh 30vw;"></button></div>
+						
+						<div id="forecast">
+							<!-- Navigation-->
+							<header class="navbar navbar-expand-lg bg-secondary text-uppercase">
+								<h3>Weather <i class="fas fa-cloud-sun style"></i> Forecast</h3>
+							</header>
+							
+							<p id="userinfo" class="topInfo" style="font-size: 35px; margin:2% 0 -9%;"></p>
+							<div style="text-align: center; margin-top: 10%">
+								<input type="text" placeholder="Enter a City, State, or Zip Code" id="box"/>
+								
+								<button type="button" class="button" id="search"><i class="fas fa-search style"></i></button>
+								
+								<button class="button" id="currentlocation"><i class="fas fa-location-arrow style"></i></button>
+							</div>
+
+							<p id="info" class="topInfo" style="font-size: 17px; margin: 3% 5%;">Please input a City/State, Zip code, or press the location button to use your current location</p>
+							<p id="area" class="topInfo"></p>
+							<p id="main" class="topInfo"></p>
+							<p id="temp" class="topInfo"></p>
+							<p id="maxmin" class="topInfo"></p>
+							<br><br><br>
+							<p id="wind" class="botInfo margin"></p>
+							<p id="pressure" class="botInfo margin"></p>
+							<p id="humidity" class="botInfo margin"></p>
+							<p id="sun" class="botInfo margin"></p>
+							<p id="coordinates" class="botInfo margin"></p>
+							<br><br><br>
+
+						</div>
+						
+						<div id="currencypage">
+							<table id="customers">
+							  	<tr>
+									<th>Currency</th>
+									<th>Exchange Rate = 1 USD</th>
+							  	</tr>
+							</table>
+							
+						</div>
+
+					</div>
+				</td>
+				<!-- Copyright Section-->
+							<div class="copyright py-2 text-center text-white sticky">
+								<div class="container"><span style="float: left; text-shadow: 0 0 6px black;">Carlos Salazar</span><span style="text-align:center; font-size: 12px; text-shadow: 0 0 6px black;">Template: <a href="https://startbootstrap.com/themes/freelancer/" target="_blank" style="color: white">startbootstrap</a></span><span style="float: right; text-shadow: 0 0 6px black;">Z23459757</span></div>
+							</div>
+			</tr>
+		</table>
+		  
+		<!-- Bootstrap core JS-->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.bundle.min.js"></script>
+
+		<!-- Third party plugin JS-->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+
+		<!-- Core theme JS-->
+		<script src="js/index.js"></script>
+        <script src="js/map.js"></script>
+        <script src="js/weather.js"></script>
+		<script src="js/currency.js"></script>
+		<script type="text/javascript" src="cordova.js"></script>
+		<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBmY-xpUHssWpGWdsbPznL5N_1R5PiUfhc"></script>
+    </body>
+</HTML>
